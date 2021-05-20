@@ -23,8 +23,8 @@ def seed_data(table_name, filename):
         )
     print("Bulk insert complete")
 
-#seed_data('Author', './sample-data/authors.csv')
-#seed_data('AuthorBook', './sample-data/author_books.csv')
-#seed_data('Member', './sample-data/members.csv')
-#seed_data('LibraryBook', './sample-data/library_books.csv')
+seed_data('Author', './sample-data/authors.csv')
+seed_data('AuthorBook', './sample-data/author_books.csv')
+seed_data('Member', './sample-data/members.csv')
+seed_data('LibraryBook', './sample-data/library_books.csv')
 seed_data('MemberBook', './sample-data/member_books.csv')
